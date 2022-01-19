@@ -1,0 +1,25 @@
+{
+  "name": "connectify/increase-webapi-rate-limit",
+  "description": "Increases the Magento 2 API Rate limit to 1000",
+  "minimum-stability": "stable",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "morten",
+      "email": "morten@droppinstudio.dk"
+    }
+  ],
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Connectify\\IncreaseWebapiRateLimit\\": ""
+    }
+  }
+}
